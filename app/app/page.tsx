@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <main>
       <Navbar/>
-      <h1>Hello world</h1>
+      {/* <h1>Hello world</h1>
       <p>
         {new Date().toLocaleTimeString()}
       </p>
       <Link href="/users">Users</Link>
-      <ProductCard/>
+      <ProductCard/> */}
     </main>  );
 }

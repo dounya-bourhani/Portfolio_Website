@@ -2,13 +2,21 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-primary">
-      <a className="btn btn-ghost text-xl">Dounya Bourhani</a>
-      <a className="btn btn-ghost">About me</a>
-      <a className="btn btn-ghost">Projects</a>
-      <a className="btn btn-ghost">SKills</a>
-      <a className="btn btn-ghost">Leave a message!</a>
-    </div>
+
+    <nav className="navbar bg-primary p-4 font-mono rounded-box ">
+      <div className=''>
+      <a className='text-xl' href="#">Dounya Bourhani</a>
+      </div>
+      <div className='flex-1 items-center justify-end gap-10 text-sm'>
+      <a href='#about'>About me</a>
+      <a href='#projects'>Projects</a>
+      <a href='#skills'>Skills</a>
+      <a href='#contact'>Contact me!</a>
+      </div>
+    </nav>
+
+
+
   )
 }
 
