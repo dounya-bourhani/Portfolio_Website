@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
 
     <nav className="navbar bg-primary p-8 rounded-box">
-      <div className=''>
-      <a className='text-xl' href="#home">Dounya Bourhani</a>
+      <div>
+        <a className='text-xl' href="#home">Dounya Bourhani</a>
       </div>
       <div className='flex-1 items-center justify-end gap-10 text-sm'>
       <a href='#about'>About me</a>
@@ -14,8 +14,6 @@ const Navbar = () => {
       <a href='#contact'>Contact me!</a>
       </div>
     </nav>
-
-
 
   )
 }
