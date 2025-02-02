@@ -4,22 +4,20 @@ import Image from 'next/image'
 import {Typewriter} from 'react-simple-typewriter'
 import Socials from "./Socials";
 
-const Presentation = () => {
+const AboutMe = () => {
   return (
     <section id='home' className='prose prose-lg !max-w-none flex flex-col items-center justify-center p-10 border shadow-2xl rounded-lg my-4'>
       
-      <div>
-        <h1 >Hi, I'm {' '}
-          <span className="text-primary">
-            <Typewriter
-              words={['Dounya :)', 'a Data Analyst']}
-              loop={0} // Infinite loop
-              cursor
-              cursorStyle="|"
-            />
-          </span>
-        </h1>
-      </div>
+      <h1 >Hi, I'm {' '}
+        <span className="text-primary">
+          <Typewriter
+            words={['Dounya :)', 'a Data Analyst']}
+            loop={0} // Infinite loop
+            cursor
+            cursorStyle="|"
+          />
+        </span>
+      </h1>
 
       <div>
         <Image src='/dounya.jpeg' alt='headhsot' width={300} height={300} className='rounded-full border shadow-2xl'/>
@@ -47,4 +45,4 @@ const Presentation = () => {
   )
 }
 
-export default Presentation
+export default AboutMe
