@@ -7,68 +7,93 @@ const Projects = () => {
 
         <h3>Data Analytics</h3>
 
-        <div className="carousel carousel-center rounded-box max-w-screen-2xl space-x-8 overflow-visible">
+        <div className="carousel carousel-center rounded-box max-w-screen-xl space-x-8">
 
-        <a href='https://public.tableau.com/app/profile/dounya.bourhani/vizzes' target='_blank' className='no-underline '>
-                <div className="carousel-item card bg-base-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:scale-105 hover:brightness-90 duration-200">
+            <a href='https://public.tableau.com/app/profile/dounya.bourhani/vizzes' target='_blank' className='no-underline '>
+                <div className="carousel-item card bg-base-100 rounded-lg shadow-xl w-96 h-96 flex flex-col hover:brightness-90 duration-200">
                     <figure className="m-0">
-                    <img
-                    src="./nba_dashboard.png"
-                    alt="Tableau Dashboard - Gobert stats"
-                    className="w-80" />
-                </figure>
-                <div className="card-body flex flex-col justify-between items-center text-center text-xs ">
-                    <h5 className="card-title">NBA statistics analysis</h5>
-                    <p>Based on NBA player Rudy Gobert's statistics, I was able to visualize if he's doing a good season so far, or not.</p>
-                    <div className="card-actions">
-                        <div className="badge badge-outline text-xs">Excel</div>
-                        <div className="badge badge-outline text-xs">Python</div>
-                        <div className="badge badge-outline text-xs">Tableau</div>
+                    <img src="./nba_dashboard.png" alt="Tableau Dashboard - Gobert stats" className="w-80" />
+                    </figure>
+                    <div className="card-body flex flex-col justify-between items-center text-center text-xs ">
+                        <h5 className="card-title">NBA statistics analysis</h5>
+                        <p>Based on NBA player Rudy Gobert's statistics, I was able to visualize if he's doing a good season so far, or not.</p>
+                        <div className="card-actions">
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Excel</div>
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Python</div>
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Tableau</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-</a>
+            </a>
 
         </div>
         
         <h3>Data Science</h3>
         
-        <div className="carousel carousel-center rounded-box max-w-screen-2xl space-x-8 overflow-visible">
+        <div className="carousel carousel-center rounded-box max-w-screen-xl space-x-8">
 
-        <a href='https://github.com/dounya-bourhani/ProjetPython' target='_blank' className='no-underline '>
-                <div className="carousel-item card bg-base-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:scale-105 hover:brightness-90 duration-200">
+            <a href='https://github.com/dounya-bourhani/SMILES_integration' target='_blank' className='no-underline '>
+                <div className="carousel-item card bg-base-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
                     <figure className="m-0">
-                    <img
-                    src="./sardeimmo.png"
-                    alt="Tableau Dashboard - Gobert stats"
-                    className="w-80" />
-                </figure>
-                <div className="card-body flex flex-col justify-between items-center text-center text-xs ">
-                    <h5 className="card-title">Sarde Immo</h5>
-                    <p>Develop an application to better understand the market and estimate the sale price of new real estate.</p>
-                    <div className="card-actions">
-                        <div className="badge badge-outline text-xs">Python</div>
-                        <div className="badge badge-outline text-xs">Machine Learning</div>
+                    <img src="./smilesmodel.png" alt="SMILES integration model" className="w-80" />
+                    </figure>
+                    <div className="card-body flex flex-col justify-between items-center text-center text-xs ">
+                        <h5 className="card-title">Medical reports and language model</h5>
+                        <p>During my internship in a cancer research center, I compared the effectiveness of
+                            a language model before and after the addition of SMILES formulas in medical reports.</p>
+                        <div className="card-actions">
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Python</div>
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Machine Learning</div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
+
+            <a href='https://github.com/dounya-bourhani/ProjetPython' target='_blank' className='no-underline '>
+                <div className="carousel-item card bg-base-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
+                    <figure className="m-0">
+                    <img src="./sardeimmo.png" alt="Tableau Dashboard - Gobert stats" className="w-80" />
+                    </figure>
+                    <div className="card-body flex flex-col justify-between items-center text-center text-xs ">
+                        <h5 className="card-title">Sarde Immo</h5>
+                        <p>An application to better understand the market and estimate the sale price of new real estate.</p>
+                        <div className="card-actions">
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Python</div>
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Machine Learning</div>
+                        </div>
+                    </div>
+                </div>
             </a>
 
             <a href='https://github.com/dounya-bourhani/ScikitNB_Shiny' target='_blank' className='no-underline '>
-                <div className="carousel-item card bg-base-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:scale-105 hover:brightness-90 duration-200">
+                <div className="carousel-item card bg-base-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
                     <figure className="m-0">
-                        <img
-                        src="./scikitnb.png"
-                        alt="ScikitNB"
-                        className="w-80" />
+                        <img src="./scikitnb.png" alt="ScikitNB" className="w-80" />
                     </figure>
                     <div className="card-body flex flex-col justify-between items-center text-center text-xs ">
                         <h5 className="card-title">ScikitNB</h5>
                         <p>ScikitNB is an R package inspired by Python <em>scikit-learn's</em> machine learning algorithms.</p>
                         <div className="card-actions">
-                            <div className="badge badge-outline text-xs">R</div>
-                            <div className="badge badge-outline text-xs">Python</div>
-                            <div className="badge badge-outline text-xs">R Shiny</div>
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">R</div>
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Python</div>
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">R Shiny</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href='https://github.com/dounya-bourhani/Challenge_Securite/tree/main' target='_blank' className='no-underline '>
+                <div className="carousel-item card bg-base-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
+                    <figure className="m-0">
+                        <img src="./challengesecu.png" alt="Challenge Securite" className="w-80" />
+                    </figure>
+                    <div className="card-body flex flex-col justify-between items-center text-center text-xs ">
+                        <h5 className="card-title">Security challenge</h5>
+                        <p>Our goals was to analyse security data and create a model that could predict malicious intrusions.</p>
+                        <div className="card-actions">
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Python</div>
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Machine Learning</div>
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Streamlit</div>
                         </div>
                     </div>
                 </div>
