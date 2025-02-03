@@ -6,10 +6,10 @@ import Socials from "./Socials";
 
 const AboutMe = () => {
   return (
-    <section id='home' className='prose prose-lg !max-w-none flex flex-col items-center justify-center p-10 border shadow-2xl rounded-lg my-4'>
+    <section id='home' className='prose prose-lg !max-w-none flex flex-col items-center justify-center p-10 border shadow-2xl rounded-lg my-4 bg-white'>
       
       <h1 >Hi, I'm {' '}
-        <span className="text-primary">
+        <span className="text-[#957DAD]">
           <Typewriter
             words={['Dounya :)', 'a Data Analyst']}
             loop={0} // Infinite loop
