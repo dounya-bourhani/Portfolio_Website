@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <section id='projects' className='prose prose-lg !max-w-none flex flex-col items-center justify-center p-10 border shadow-2xl rounded-lg my-4'>
+    <section id='projects' className='prose prose-lg !max-w-none flex flex-col items-center justify-center border bg-white'>
         <h2>Projects</h2>
 
         <h3>Data Analytics</h3>
@@ -55,7 +55,7 @@ const Projects = () => {
                         <div className="card-actions">
                             <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Python</div>
                             <div className="badge badge-outline text-xs text-[#90CCDE] font-black">Pandas</div>
-                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">SQLite</div>
+                            <div className="badge badge-outline text-xs text-[#90CCDE] font-black">SQL</div>
                         </div>
                     </div>
                 </div>

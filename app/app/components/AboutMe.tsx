@@ -6,7 +6,7 @@ import Socials from "./Socials";
 
 const AboutMe = () => {
   return (
-    <section id='home' className='prose prose-lg !max-w-none flex flex-col items-center justify-center p-10 border shadow-2xl rounded-lg my-4 bg-white'>
+    <section id='home' className='prose prose-lg !max-w-none left-0 flex flex-col items-center justify-center bg-violet-50'>
       
       <h1 >Hi, I'm {' '}
         <span className="text-[#957DAD]">

@@ -2,10 +2,8 @@ import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
-// export const metadata = {
-//   stylesheet: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-// }
 
 export default function Home() {
   return (
@@ -14,6 +12,7 @@ export default function Home() {
       <AboutMe/>
       <Projects/>
       <Skills/>
+      <Contact/>
     </main>  
   );
 }
