@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id='contact' className='prose prose-lg !max-w-none flex flex-col items-center justify-center bg-white'>
 
-        <h2>Let's connect!</h2>
+        <h2>Let&apos;s connect!</h2>
 
         <div className='w-full'>
             <p className='text-center'>If you want to get in touch with me, feel free to..</p>
