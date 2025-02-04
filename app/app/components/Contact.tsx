@@ -26,10 +26,9 @@ const Contact = () => {
 
             </div>
 
-
             <div>
-                <form className="flex flex-col mx-96">
-                    <textarea placeholder="or you can even leave me a message here !" className="self-center textarea textarea-bordered w-full h-40 border-[#90CCDE]"
+                <form action="https://formsubmit.co/bourhani.dounya@gmail.com" method="POST" className="flex flex-col mx-96">
+                    <textarea name="message" placeholder="or you can even leave me a message here !" className="self-center textarea textarea-bordered w-full h-40 border-[#90CCDE]"
                     ></textarea>
                     <button type="submit" className="mt-3 btn self-end bg-[#90CCDE]">Send</button>
                 </form>
