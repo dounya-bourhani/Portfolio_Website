@@ -24,3 +24,15 @@ body {
 section {
   padding: 8rem 2rem;
 }
+
+h2::after {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6rem;
+  height: 0.25rem;
+  background: #A888B5;
+  margin-top: 0.5rem;
+  border-radius: 2px;
+}
