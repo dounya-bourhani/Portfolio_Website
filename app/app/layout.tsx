@@ -21,6 +21,8 @@ export default function RootLayout({
     <html lang="en" data-theme="pastel">
       <body className={patrickHand.className}>
         {children}
+
+        <footer className="text-center text-sm text-gray-500 pb-6">© 2025 Dounya Bourhani. All Rights Reserved.</footer>
       </body>
     </html>
   );
