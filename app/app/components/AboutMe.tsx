@@ -6,7 +6,7 @@ import Socials from "./Socials";
 
 const AboutMe = () => {
   return (
-    <section id='home' className='prose prose-lg !max-w-none left-0 flex flex-col items-center justify-center bg-violet-50 pt-16'>
+    <section id='home' className='prose prose-lg !max-w-none left-0 flex flex-col items-center justify-center bg-violet-50 pt-40'>
       
       <h1 >Hi, I'm {' '}
         <span className="text-[#957DAD]">
@@ -20,7 +20,7 @@ const AboutMe = () => {
       </h1>
 
       <div>
-        <Image src='/dounya.jpeg' alt='headhsot' width={300} height={300} className='rounded-full border shadow-2xl'/>
+        <Image src='/dounya.jpeg' alt='headhsot' width={300} height={300} className='rounded-full border shadow-2xl hover:scale-125 duration-300 ease-in-out'/>
       </div>
 
       <div className='grid grid-cols-6 my-4'>
