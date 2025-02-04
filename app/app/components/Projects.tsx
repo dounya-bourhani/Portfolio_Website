@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <section id='projects' className='prose prose-lg !max-w-none flex flex-col items-center justify-center border bg-white'>
+    <section id='projects' className='prose prose-lg !max-w-none flex flex-col items-center justify-center bg-white'>
         <h2>Projects</h2>
 
         <h3>Data Analytics</h3>
