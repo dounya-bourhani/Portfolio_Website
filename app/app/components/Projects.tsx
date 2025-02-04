@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="carousel carousel-center rounded-box max-w-screen-xl space-x-8">
 
             <a href='https://public.tableau.com/app/profile/dounya.bourhani/vizzes' target='_blank' className='no-underline '>
-                <div className="carousel-item card bg-base-100 rounded-lg shadow-xl w-96 h-96 flex flex-col hover:brightness-90 duration-200">
+                <div className="carousel-item card bg-neutral-50 rounded-lg shadow-xl w-96 h-96 flex flex-col hover:brightness-90 duration-200">
                     <figure className="m-0">
                     <img src="./nba_dashboard.png" alt="Tableau Dashboard - Gobert stats" className="w-80" />
                     </figure>
@@ -26,8 +26,8 @@ const Projects = () => {
                     </div>
                 </div>
             </a>
-            <a href='https://github.com/dounya-bourhani/SMILES_integration/tree/main/integration_des_smiles' target='_blank' className='no-underline '>
-                <div className="carousel-item card bg-base-100 rounded-lg shadow-xl w-96 h-96 flex flex-col hover:brightness-90 duration-200">
+            <a href='https://github.com/dounya-bourhani/SMILES_integration/tree/main/integration_des_smiles' target='_blank' className='no-underline'>
+                <div className="carousel-item card bg-neutral-50 rounded-lg shadow-xl w-96 h-96 flex flex-col hover:brightness-90 duration-200">
                     <figure className="m-0">
                     <img src="./smilesbd.png" alt="SMILES Database" className="w-80" />
                     </figure>
@@ -44,7 +44,7 @@ const Projects = () => {
                 </div>
             </a>
             <a href='https://public.tableau.com/app/profile/dounya.bourhani/vizzes' target='_blank' className='no-underline '>
-                <div className="carousel-item card bg-base-100 rounded-lg shadow-xl w-96 h-96 flex flex-col hover:brightness-90 duration-200">
+                <div className="carousel-item card bg-neutral-50 rounded-lg shadow-xl w-96 h-96 flex flex-col hover:brightness-90 duration-200">
                     <figure className="m-0">
                     <img src="./joboffers.png" alt="Job offers analysis" className="w-80" />
                     </figure>
@@ -68,7 +68,7 @@ const Projects = () => {
         <div className="carousel carousel-center rounded-box max-w-screen-xl space-x-8">
 
             <a href='https://github.com/dounya-bourhani/SMILES_integration/tree/main/evaluation_des_performances' target='_blank' className='no-underline '>
-                <div className="carousel-item card bg-base-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
+                <div className="carousel-item card bg-neutral-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
                     <figure className="m-0">
                     <img src="./smilesmodel.png" alt="SMILES integration model" className="w-80" />
                     </figure>
@@ -85,7 +85,7 @@ const Projects = () => {
                 </div>
             </a>
             <a href='https://github.com/dounya-bourhani/IA_Code_Retranscription' target='_blank' className='no-underline '>
-                <div className="carousel-item card bg-base-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
+                <div className="carousel-item card bg-neutral-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
                     <figure className="m-0">
                     <img src="./jupycoder.png" alt="JupyCoder" className="w-80" />
                     </figure>
@@ -101,7 +101,7 @@ const Projects = () => {
                 </div>
             </a>
             <a href='https://github.com/dounya-bourhani/ProjetPython' target='_blank' className='no-underline '>
-                <div className="carousel-item card bg-base-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
+                <div className="carousel-item card bg-neutral-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
                     <figure className="m-0">
                     <img src="./sardeimmo.png" alt="Tableau Dashboard - Gobert stats" className="w-80" />
                     </figure>
@@ -116,7 +116,7 @@ const Projects = () => {
                 </div>
             </a>
             <a href='https://github.com/dounya-bourhani/ScikitNB_Shiny' target='_blank' className='no-underline '>
-                <div className="carousel-item card bg-base-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
+                <div className="carousel-item card bg-neutral-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
                     <figure className="m-0">
                         <img src="./scikitnb.png" alt="ScikitNB" className="w-80" />
                     </figure>
@@ -132,7 +132,7 @@ const Projects = () => {
                 </div>
             </a>
             <a href='https://github.com/dounya-bourhani/Challenge_Securite/tree/main' target='_blank' className='no-underline '>
-                <div className="carousel-item card bg-base-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
+                <div className="carousel-item card bg-neutral-100 shadow-xl w-96 h-96 flex flex-col rounded-lg hover:brightness-90 duration-200">
                     <figure className="m-0">
                         <img src="./challengesecu.png" alt="Challenge Securite" className="w-80" />
                     </figure>
