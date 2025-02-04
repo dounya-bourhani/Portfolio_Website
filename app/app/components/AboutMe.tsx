@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <section id='home' className='prose prose-lg !max-w-none left-0 flex flex-col items-center justify-center bg-violet-50 pt-40'>
       
-      <h1 >Hi, I'm {" "}
+      <h1 >Hi, I&apos;'m {" "}
         <span className="text-[#957DAD]">
           <Typewriter
             words={['Dounya :)', 'a Data Analyst']}
