@@ -26,7 +26,7 @@ const AboutMe = () => {
       <div className='grid grid-cols-6 my-4'>
         <p className='text-center col-span-4 col-start-2'>
           Hey! I&apos;m Dounya, a recent graduate from the <span className='font-black text-fuchsia-900'>University of Lyon 2</span>, who&apos;s incredibly excited in 
-          building her own path in the Data World. While obtaining my <span className='font-black text-fuchsia-900'>SISE master degree</span> (Statistics and 
+          building her own path in Data. While obtaining my <span className='font-black text-fuchsia-900'>SISE master degree</span> (Statistics and 
           Computer science applied to Data Science), I worked on a number of projects that allowed me to shape my skills around data analysis.
         </p>
         {/* <p className='text-center text-base'>

@@ -10,15 +10,15 @@ const Projects = () => {
 
         <div className="carousel carousel-center rounded-box max-w-screen-xl space-x-8 my-8">
 
-            <a href='https://public.tableau.com/app/profile/dounya.bourhani/vizzes' target='_blank' className='no-underline '>
+            <a href='https://public.tableau.com/app/profile/dounya.bourhani/viz/rudy_gobert_dpoy/RG_dpoy' target='_blank' className='no-underline '>
                 <div className="carousel-item card bg-neutral-50 border rounded-lg shadow-xl w-96 h-96 flex flex-col hover:brightness-90 duration-200">
                     <figure className="m-0">
-                    <Image src="/nba_dashboard.png" width={290} height={150} alt="Tableau Dashboard - Gobert stats" />
+                    <Image src="/rudygobert_dashboard.png" width={290} height={150} alt="Tableau Dashboard - Gobert stats" />
                     </figure>
                     <div className="card-body flex flex-col justify-between items-center text-center text-xs ">
-                        <h5 className="card-title">NBA statistics analysis</h5>
+                        <h5 className="card-title">Rudy Gobert defensive statistics</h5>
                         <p>Based on NBA player Rudy Gobert&apos;s statistics, I was able to visualize if he&apos;s doing a good season 
-                            so far, or not.</p>
+                            so far, compared to his best seasons.</p>
                         <div className="card-actions">
                             <div className="badge badge-outline text-xs text-neutral font-black">Excel</div>
                             <div className="badge badge-outline text-xs text-neutral font-black">Python</div>
