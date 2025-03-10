@@ -10,7 +10,7 @@ const Projects = () => {
 
         <div className="carousel carousel-center rounded-box max-w-screen-xl space-x-8 my-8">
 
-        <a href='https://github.com/dounya-bourhani/Nike_Sales_2024' target='_blank' className='no-underline '>
+        <a href='https://public.tableau.com/app/profile/dounya.bourhani/viz/Nike2024GlobalSales/2024NIKEDashboard' target='_blank' className='no-underline '>
                 <div className="carousel-item card bg-neutral-50 border rounded-lg shadow-xl w-96 h-96 flex flex-col hover:brightness-90 duration-200">
                     <figure className="m-0">
                     <Image src="/2024_NIKE_Dashboard.png" width={290} height={150} alt="Tableau Dashboard - NIKE Sales" />
@@ -26,7 +26,7 @@ const Projects = () => {
                     </div>
                 </div>
             </a>
-            <a href='https://github.com/dounya-bourhani/NBA_stats_analysis?tab=readme-ov-file' target='_blank' className='no-underline '>
+            <a href='https://public.tableau.com/app/profile/dounya.bourhani/viz/rudy_gobert_dpoy/RG_dpoy' target='_blank' className='no-underline '>
                 <div className="carousel-item card bg-neutral-50 border rounded-lg shadow-xl w-96 h-96 flex flex-col hover:brightness-90 duration-200">
                     <figure className="m-0">
                     <Image src="/rudygobert_dashboard.png" width={290} height={150} alt="Tableau Dashboard - Gobert stats" />
